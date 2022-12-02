@@ -1,0 +1,63 @@
+body {
+    background-image: url(background.jfif);
+    background-size: 100%;
+    background-position: center;
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+} 
+
+p { 
+		color: white;
+		margin-left: 5px;
+		margin-top: 10px; 
+ }
+
+ h1 {
+ 	color: white;
+ }
+ 
+ img { 
+ 		margin-right: 10px;
+ 		margin-top: 4px;
+  }
+/* Add a black background color to the top navigation */
+.navigatiebar {
+  background-color: #D60000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navigatiebar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigatiebar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navigatiebar a.active {
+  background-color: #c20000;
+  text-decoration: underline;
+  color: white;
+}
+
+.flex-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.item { 
+    height: 250px;
+    width: 500px;
+    background-color: transparent;
+}
